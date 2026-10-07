@@ -64,5 +64,6 @@ def test_factorial_100():
 
 def test_factorial_negative_10():
     with pytest.raises(Exception, match="Negative input"):
-        demo.factorial(-10)        
+        demo.factorial(-10) 
+               
      
